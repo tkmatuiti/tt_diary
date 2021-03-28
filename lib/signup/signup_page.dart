@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tt_diary/book_list/add_book_model.dart';
 import 'package:tt_diary/signup/signup_model.dart';
-import 'package:google_sign_in/google_sign_in.dart';
 
 class SignUpPage extends StatelessWidget {
   @override
@@ -16,7 +15,7 @@ class SignUpPage extends StatelessWidget {
       child: SafeArea(
         child: Scaffold(
           appBar: AppBar(
-            title: Text('SignUp!'),
+            title: Text('登録！'),
           ),
           body: Consumer<SignUpModel>(
             builder: (context, model, child) {
@@ -98,7 +97,7 @@ class SignUpPage extends StatelessWidget {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: Text('Saved!'),
+            title: Text('保存！'),
             actions: <Widget>[
               TextButton(
                 child: Text('OK'),
