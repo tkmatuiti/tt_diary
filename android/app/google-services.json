@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "144084769109",
+    "project_id": "tt-diary",
+    "storage_bucket": "tt-diary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144084769109:android:e9dc13708bc25168fd77dc",
+        "android_client_info": {
+          "package_name": "tkbtveveryday.tt_diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144084769109-upr7fu9t20a4ncls5u2f39nc6mjq8kb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7N7CWg1HSCTZ3F4t9jJ30HZURoQgzB68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144084769109-upr7fu9t20a4ncls5u2f39nc6mjq8kb2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "144084769109-jiecv96cf43ktsk4tt496li4qeubcju6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "tkbtveveryday.ttDiary"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
